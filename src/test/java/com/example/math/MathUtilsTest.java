@@ -19,9 +19,4 @@ class MathUtilsTest {
     void testPercentageNormal() {
         assertEquals(40.0, MathUtils.percentage(2, 5), 1e-9);
     }
-
-    @Test
-    void intentionalFailingTest() {
-        assertEquals(50.0, MathUtils.percentage(1, 3), 1e-9);
-    }
 }
